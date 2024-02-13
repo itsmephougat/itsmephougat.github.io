@@ -1,0 +1,93 @@
+#content {
+  display: none; /* Hide content initially */
+}
+
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+}
+
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end; /* Move navbar links to the right */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px; /* Adjust margin to move navbar links slightly left */
+  margin-left: auto;
+}
+
+.navbar-links a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #000 ;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  font-size: 1.2em; /* Adjust the font size of navbar links */
+  text-decoration: none;
+  /* Remove dotted line below navbar links */
+  border-bottom: none;
+}
+
+.navbar-links a i {
+  margin-right: 5px;
+}
+
+.toggle-button {
+  display: none;
+  margin-left: auto;
+  padding: 10px;
+  background-color: #000 ;
+  border-radius: 15px;
+  font-size: 1.5em; /* Adjust the font size as desired */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: calc(100% - 20px); /* Adjusted width to account for margins */
+    position: absolute;
+    top: 60px;
+    left: 10px; /* Adjusted left margin */
+    right: 10px; /* Adjusted right margin */
+    z-index: 1; /* Ensure navbar links are above other content */
+    border-radius: 10px;
+    background-color: #000 ;
+    padding: 20px; /* Add padding inside the box */
+  }
+  
+  .navbar-links a {
+    font-size: 1.2em; /* Adjust the font size of navbar links */
+    margin-bottom: 20px; /* Add some space between each navbar item */
+    background-color: transparent; /* Remove background color for mobile */
+    border-radius: 0; /* Remove border radius for mobile */
+  }
+  
+  /* Show navbar links when active class is present */
+.navbar-links.active {
+  display: flex;
+  justify-content: center; /* Center align links */
+  margin-left: 2px; /* Ensure navbar links are aligned to the right */
+}
+
+
+  .toggle-button {
+    display: block;
+    margin-left: auto; /* Move hamburger icon to the right */
+    cursor: pointer;
+  }
+}
