@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Rohit's Portfolio</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class = "nav container">
+            <a href="#" class="nav__logo">
+               <span class = "nav__logo-circle">Rp</span>
+               <span class="nav__logo-name">Rohit Phougat</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
+
+               <h3 class="nav__name">Rohit</h3>
+
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Me</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+                  </li>
+               </ul>
+
+               <!--Close button-->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Toggle button-->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-4-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Rohit Phougat
+               </h1>
+
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/img/my_photo.jpg" alt="image" class="home__img">
+                     <div class="home__shadow"></div>
+
+                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
+
+                     <div class="geometric-box"></div>
+                  </div>
+
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/in/itsmephougat/" target = "_blank" class="home__social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                     </a>
+                     <a href="https://github.com/itsmephougat" target= "_blank" class="home__social-link">
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+                     <a href="https://www.kaggle.com/rohitphougat" target = "_blank" class="home__social-link">
+                        <i class="fa-brands fa-kaggle"></i>
+                     </a>
+                     <a href="mailto:itsmephougat1000@gmail.com" target = "_blank" class="home__social-link">
+                        <i class="fa-solid fa-envelope"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="home__info">
+                     <p class="home__description">
+                        I'm a passionate and</br> detail-oriented</br><b>Data Scientist /Data Analyst</br>/Business Analyst.</b></p>
+
+               </div>
+
+               <a href=#about class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+
+                  <span class="home__scroll-text">Scroll Down</span>
+               </a>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+               <h2 class="section__title-1">
+                  About Me
+               </h2>
+
+               <div class="about__container container grid">
+                  <article class="about__card">
+                     <div class="skills">
+                        <h2 class="about__title"><i class="fa-solid fa-list-check"></i> Skills</h2>
+                           <div class="skills__group">
+                              <li><h4 class="skills__name"><i class="fa-solid fa-circle-dot"></i> Python</h4>
+                              <div class="skills__data">
+                                 <ul>
+                                    <li class="skills__list">Numpy</li>
+                                    <li class="skills__list">Pandas</li>
+                                    <li class="skills__list">Matplotlib</li>
+                                    <li class="skills__list">Seaborn</li>
+                                    <li class="skills__list">Scikit-learn</li>
+                                 </ul>
+                              </div>
+                              </li>
+                              <li><h4 class="skills__name"><i class="fa-solid fa-circle-dot"></i> SQL</h4>
+                              <div class="skills__data">
+                                 <ul>
+                                    <li class="skills__list">MySQL</li>
+                                    <li class="skills__list">PostgreSQL</li>
+                                    <li class="skills__list">SQL Server</li>
+                                    <li class="skills__list">BigQuery</li>
+                                 </ul>
+                              </div>
+                              </li>
+                              <li><h4 class="skills__name"><i class="fa-solid fa-circle-dot"></i> Tableau</h4>
+                              <div class="skills__data">
+                                 <ul>
+                                    <li class="skills__list">Data Mapping</li>
+                                    <li class="skills__list">Dashboards</li>
+                                    <li class="skills__list">Reports</li>
+                                 </ul>
+                              </div>
+                              </li>
+                              <li><h4 class="skills__name"><i class="fa-solid fa-circle-dot"></i> Excel</h4>
+                              <div class="skills__data">
+                                 <ul>
+                                    <li class="skills__list">VLookup</li>
+                                    <li class="skills__list">Conditional Formatting</li>
+                                    <li class="skills__list">Pivot Tables</li>
+                                    <li class="skills__list">Data Validation</li>
+                                    <li class="skills__list">Data Analysis</li>
+                                    <li class="skills__list">Data Cleaning</li>
+                                    <li class="skills__list">Data Transformation</li>
+                                    <li class="skills__list">Data Integration</li>
+                                    <li class="skills__list">Data Modeling</li>
+                                    <li class="skills__list">Data Visualization</li>
+                                 </ul>
+                              </div>
+                              </li>
+                              <li><h4 class="skills__name"><i class="fa-solid fa-circle-dot"></i> R</h4>
+                              <div class="skills__data">
+                                 <ul>
+                                    <li class="skills__list">tidyverse</li>
+                                    <li class="skills__list">ggplot2</li>
+                                    <li class="skills__list">dplyr</li>
+                                    <li class="skills__list">plotly</li>
+                                 </ul>
+                              </div>
+                              </li>
+                              <li><h4 class="skills__name"><i class="fa-solid fa-circle-dot"></i> PowerBI</h4>
+                              <div class="skills__data">
+                                 <ul>
+                                    <li class="skills__list">Data Mapping</li>
+                                    <li class="skills__list">Dax Functions</li>
+                                    <li class="skills__list">Dashboards</li>
+                                    <li class="skills__list">Reports</li>
+                                 </ul>
+                              </div>
+                              </li>
+                           </div>
+                     </div>
+                  </article>
+                  <article class="about__card">
+                     <div class="certifications">
+                        <h2 class="about__title"><i class="fa-solid fa-user-graduate"></i> Education/<br><i class="fa-solid fa-certificate"></i> Certifications</h2>
+                           <div class="certificates">
+                              <li><h4 class="certificate__name"><i class="fa-solid fa-circle-dot"></i> Bachelors in Computer Science and Mathematics</h4>
+                                 <div class="certificate__data">
+                                    -Maharshi Dayanand University
+                                 </div>
+                              </li>
+                              <li><h4 class="certificate__name"><i class="fa-solid fa-circle-dot"></i> Statistical Learning</h4>
+                                 <div class="certificate__data">
+                                    -Stanford University
+                                 </div>
+                              </li>
+                              <li><h4 class="certificate__name"><i class="fa-solid fa-circle-dot"></i> Google Data Analytics Professional Certificate</h4>
+                              <div class="certificate__data">
+                                 -Coursera
+                              </div>
+                              </li>
+                              <li><h4 class="certificate__name"><i class="fa-solid fa-circle-dot"></i> Career Essentials in Business Analysis</h4>
+                                 <div class="certificate__data">
+                                    -Microsoft and LinkedIn
+                                 </div>
+                                 </li>
+                           </div>
+                     </div>
+                  </article>
+
+                  <article class="about__card">
+                     <div class="achievements">
+                        <h2 class="about__title"><i class="fa-solid fa-award"></i> Achievements</h2>
+                        <div class="achievements">
+                           <li><h4 class="achievement__name"><i class="fa-solid fa-circle-dot"></i> Rank of 461(Top 11%) out of 4507 Teams</h4>
+                              <div class="achievement__data">
+                                 -Kaggle House Price Prediction Competition 
+                              </div>
+                           </li>
+                        </div>
+
+                     </div>
+                  </article>
+
+               </div>
+               
+         </section>
+<!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+               <span>Projects</span>
+            </h2>
+
+            <div class="projects__container container grid">
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/thumbs/housing.jpg" alt="image" class="projects__img">
+
+                     <a href="https://github.com/itsmephougat/House_Price_Prediction/blob/main/House_Price_Prediction.ipynb" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title">House Price Prediction</h2>
+
+                     <class class="projects__description">
+                        In this project we predict the House Prices using Advance Regression Techniques.
+                        Got Rank of 461(Top11%) out of 4507 teams in Kaggle.
+                        
+                     </class>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/itsmephougat/House_Price_Prediction" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View Repository
+                     </a>
+
+                     <a href="" target="_blank" class="projects__link">
+                        <i class="ri-pages-line"></i> View Website
+                     </a>
+                  </div>
+
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/thumbs/amazon.jpg" alt="image" class="projects__img">
+
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects/blob/main/Amazon%20Web%20Scraper%20Project.ipynb" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title">Amazon Web Scrapping using Python</h2>
+
+                     <class class="projects__description">
+                        In this project we scrape data from Amazon to analyze price data for products. 
+
+                     </class>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View Repository
+                     </a>
+
+                     <a href="https://bloomify.jukelyn.com" target="_blank" class="projects__link">
+                        <i class="ri-pages-line"></i> View Website
+                     </a>
+                  </div>
+
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/thumbs/covid.jpg" alt="image" class="projects__img">
+
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects/blob/main/COVID%20Portfolio%20Project%20-%20Data%20Exploration.sql" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title">Covid 19 Data Exploration</h2>
+
+                     <class class="projects__description">
+                        In this project we use SQL Server to explore global Covid 19 Data. 
+            
+                     </class>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View Repository
+                     </a>
+
+                     <a href="https://bjaec.github.io/RecipesProject/" target="_blank" class="projects__link">
+                        <i class="ri-pages-line"></i> View Website
+                     </a>
+                  </div>
+
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/thumbs/movies.jpg" alt="image" class="projects__img">
+
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects/blob/main/Movie%20Portfolio%20Project.ipynb" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title">Movie Correlation with Python</h2>
+
+                     <class class="projects__description">
+                        In this project we look at what variables effect the gross revenue from movies. 
+            
+                     </class>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View Repository
+                     </a>
+
+                     <a href="https://bjaec.github.io/RecipesProject/" target="_blank" class="projects__link">
+                        <i class="ri-pages-line"></i> View Website
+                     </a>
+                  </div>
+
+               </article>
+               
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/thumbs/tableau.jpg" alt="image" class="projects__img">
+
+                     <a href="https://public.tableau.com/app/profile/rohit.phougat/vizzes" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title">Tableau Dashboard</h2>
+
+                     <class class="projects__description">
+                        Tableau Dashboard for Covid 19 Data. 
+            
+                     </class>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/itsmephougat/Portfolio_Projects" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View Repository
+                     </a>
+
+                     <a href="https://bjaec.github.io/RecipesProject/" target="_blank" class="projects__link">
+                        <i class="ri-pages-line"></i> View Website
+                     </a>
+                  </div>
+
+               </article>
+
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+
+         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Contact Me</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     Feel free to connect over email 🙋‍♂️
+                  </p>
+
+                  <div class="geometric-box"></div>
+
+
+               </div>
+
+               <div class="contact__mail">
+                     <h2 class="contact__title">
+                        Send me a message!
+                     </h2>
+
+                     <form id="contact-form" class="contact__form" action="https://formspree.io/f/xnqepgbz" method="POST">
+                        <div class="contact__group">
+                           <div class="contact__box">
+                              <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Name">
+                              <label for="name" class="contact__label">Name</label>
+                           </div>
+
+                           <div class="contact__box">
+                              <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                              <label for="email" class="contact__label">Email Address</label>
+                           </div>
+
+                           <div class="contact__box">
+                              <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                              <label for="subject" class="contact__label">Subject</label>
+                           </div>
+
+
+                           <div class="contact__box contact__area">
+                              <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                              <label for="message" class="contact__label">Message</label>
+                           </div>
+                           <p class="contact__message" id="contact-message"></p>
+                        </div>
+                           <button type="submit" class="contact__button button">
+                              <i class="ri-send-plane-line"></i> Send Message
+                           </button>
+                     </form>
+               </div>
+
+               <div class="contact__social">
+                     <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                     <div class="contact__social-data">
+                        <div>
+                           <p class="contact__social-desciption-1">
+
+                           </p>
+
+                           <p class="contact__social-desciption-1">
+                              Let's Connect on Linkedin!
+                           </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                           <a href="https://www.linkedin.com/in/itsmephougat/" target="_blank" class="contact__social-link">
+                              <i class="fa-brands fa-linkedin"></i>
+                           </a>
+                        </div>
+                     </div>
+               </div>
+            </div>
+         
+            
+         </section>
+      </main>
+
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+            </ul>
+
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
