@@ -927,6 +927,10 @@ img {
 /* For small devices */
 
 @media screen and (min-width: 340px){
+  .home{
+    margin-top: 50px;
+  }
+	
   .container{
     margin-inline: 1rem;
   }
