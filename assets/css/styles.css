@@ -1039,6 +1039,11 @@ img {
 /* For large devices */
 
 @media screen and (min-width: 1150px){
+
+  .home{
+    margin-top: 0;
+  }
+	
   .container{
     margin-inline: auto;
   }
