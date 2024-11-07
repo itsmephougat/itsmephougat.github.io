@@ -644,13 +644,13 @@ img {
   align-items: center;
   column-gap: .25rem;
   color: var(--text-color);
-  font-size: var(--small-font-size);
+  font-size: 1.25rem;
   font-weight: var(--font-medium);
   transition: color .4s;
 }
 
 .projects__link i{
-  font-size: 1rem;
+  font-size: 1.65rem;
   color: var(--title-color);
   transition: color .4s;
 }
